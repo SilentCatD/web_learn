@@ -24,6 +24,10 @@ p {
   color: white;
 }
 
+.white-section{
+    background-color: white;
+}
+
 #testimonials,
 #press {
   background-color: #ef8172;
@@ -40,7 +44,7 @@ p {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 3% 15% 7%;
 }
 
 .nav-item {
@@ -60,6 +64,12 @@ p {
 
 .iphone-img {
   transform: rotate(20deg);
+  position: absolute;
+  right: 10%;
+}
+
+#features{
+    position: relative;
 }
 
 .feature-icon {
