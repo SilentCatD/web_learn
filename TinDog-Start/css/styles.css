@@ -19,6 +19,10 @@ p {
   text-align: left;
 }
 
+#title .container-fluid{
+  padding-top: 3%;
+}
+
 .colored-section {
   background-color: #ff4c68;
   color: white;
@@ -44,7 +48,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 .nav-item {
@@ -109,4 +113,18 @@ p {
 } 
 .pricing-col{
     padding: 3% 2%;
+}
+@media (max-width: 1199.98px) {
+  .iphone-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+   }
+}
+
+.footer-icon{
+  font-size: 2rem;
+  margin: 0 1rem 1rem 1rem;
 }
