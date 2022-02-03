@@ -2,6 +2,7 @@
     width: 150px;
     border: 1px solid black;
     background-color: aliceblue;
+    position: absolute;
 }
 
 /* .highlight{

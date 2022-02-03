@@ -59,6 +59,22 @@
 // });
 
 
-$("#toggleMe").click(function (e) { 
-    $("#textBox").toggle("slow", "swing");
+// $("#toggleMe").click(function (e) { 
+//     $("#textBox").toggle("slow", "swing");
+// });
+
+$("#grow").click(function (e) { 
+    $("#textBox").animate({width: "500px"}, 2000);
+});
+
+$("#move").click(function (e) { 
+    $("#textBox").animate({"margin-left": "200px"}, 1000);
+});
+
+$("#bigger").click(function (e) { 
+    $("#textBox").animate({"font-size": "40px"}, 3000);
+});
+
+$("#things").click(function (e) { 
+    $("#textBox").animate({"font-size": "40px", "margin-left": "500px", "width": "600px"}, 2000);
 });
