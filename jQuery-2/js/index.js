@@ -46,14 +46,19 @@
 // });
 
 
-$("#slideUp").click(function (e) { 
-   $("#textBox").slideUp();
-});
+// $("#slideUp").click(function (e) { 
+//    $("#textBox").slideUp();
+// });
 
-$("#slideDown").click(function (e) { 
-    $("#textBox").slideDown();
-});
+// $("#slideDown").click(function (e) { 
+//     $("#textBox").slideDown();
+// });
 
-$("#slideToggle").click(function (e) { 
-    $("#textBox").slideToggle();    
+// $("#slideToggle").click(function (e) { 
+//     $("#textBox").slideToggle();    
+// });
+
+
+$("#toggleMe").click(function (e) { 
+    $("#textBox").toggle("slow", "swing");
 });
