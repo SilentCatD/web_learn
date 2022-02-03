@@ -15,10 +15,20 @@
 //     $("#textBox").html(originText);
 // });
 
-$("#hide").click(function (e) { 
-    $("#textBox").hide();
-});
+// $("#hide").click(function (e) { 
+//     $("#textBox").hide();
+// });
 
-$("#show").click(function (e) { 
-    $("#textBox").show();
-});
+// $("#show").click(function (e) { 
+//     $("#textBox").show();
+// });
+
+$(".textCopy").hover(function () {
+        // over
+        $(this).addClass("highlight");
+        
+    }, function () {
+        // out
+        $(this).removeClass("highlight");
+    }
+);
