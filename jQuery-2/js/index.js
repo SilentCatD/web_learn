@@ -79,4 +79,8 @@
 //     $("#textBox").animate({"font-size": "40px", "margin-left": "500px", "width": "600px"}, 2000);
 // });
 
-$("#container p:odd").css("border", "1px solid blue");
+$("p").css("border", "3px dotted red");
+
+$("#headerTop").css("border", "1px solid blue");
+
+$(".greenBorder").css("border", "2px solid green");
