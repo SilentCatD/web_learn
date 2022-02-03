@@ -33,14 +33,23 @@
 //     }
 // );
 
-$("#fadeIn").click(function (e) { 
-    $("#textBox").fadeIn("slow", "linear", function (param) {  
-        alert("I'm done fading in.")
-    });
+// $("#fadeIn").click(function (e) { 
+//     $("#textBox").fadeIn("slow", "linear", function (param) {  
+//         alert("I'm done fading in.")
+//     });
+// });
+
+// $("#fadeOut").click(function (e) { 
+//     $("#textBox").fadeOut("fast", "swing", function (param) {  
+//         alert("I'm done fading out.")
+//     });
+// });
+
+
+$("#slideUp").click(function (e) { 
+   $("#textBox").slideUp();
 });
 
-$("#fadeOut").click(function (e) { 
-    $("#textBox").fadeOut("fast", "swing", function (param) {  
-        alert("I'm done fading out.")
-    });
+$("#slideDown").click(function (e) { 
+    $("#textBox").slideDown();
 });
