@@ -1,11 +1,10 @@
-/* #textBox{
+#textBox{
     width: 150px;
     border: 1px solid black;
     background-color: aliceblue;
-    display: none;
-} */
+}
 
-.highlight{
+/* .highlight{
     text-shadow: 1px 1px #ccc;
     background-color: red;
-}
+} */

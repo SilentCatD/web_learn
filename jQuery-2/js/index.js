@@ -23,12 +23,24 @@
 //     $("#textBox").show();
 // });
 
-$(".textCopy").hover(function () {
-        // over
-        $(this).addClass("highlight");
+// $(".textCopy").hover(function () {
+//         // over
+//         $(this).addClass("highlight");
         
-    }, function () {
-        // out
-        $(this).removeClass("highlight");
-    }
-);
+//     }, function () {
+//         // out
+//         $(this).removeClass("highlight");
+//     }
+// );
+
+$("#fadeIn").click(function (e) { 
+    $("#textBox").fadeIn("slow", "linear", function (param) {  
+        alert("I'm done fading in.")
+    });
+});
+
+$("#fadeOut").click(function (e) { 
+    $("#textBox").fadeOut("fast", "swing", function (param) {  
+        alert("I'm done fading out.")
+    });
+});
