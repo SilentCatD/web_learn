@@ -5,12 +5,20 @@
 // newText.append("<h1>I just replaced some text.</h1>")
 // $("#textBox").html(newText);
 
-let originText = $("#textBox").text();
+// let originText = $("#textBox").text();
 
-$("#textBox").click(function (e) { 
-    $("#textBox").html("<h1>You Clicked Me</h1>");
+// $("#textBox").click(function (e) { 
+//     $("#textBox").html("<h1>You Clicked Me</h1>");
+// });
+
+// $("#textBox").mouseleave(function () { 
+//     $("#textBox").html(originText);
+// });
+
+$("#hide").click(function (e) { 
+    $("#textBox").hide();
 });
 
-$("#textBox").mouseleave(function () { 
-    $("#textBox").html(originText);
+$("#show").click(function (e) { 
+    $("#textBox").show();
 });
