@@ -53,3 +53,7 @@ $("#slideUp").click(function (e) {
 $("#slideDown").click(function (e) { 
     $("#textBox").slideDown();
 });
+
+$("#slideToggle").click(function (e) { 
+    $("#textBox").slideToggle();    
+});
